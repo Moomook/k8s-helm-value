@@ -1,6 +1,0 @@
-make --dry-run --always-make --keep-going --print-directory
-make: Entering directory `/home/damon/myPrj/k8s_prj/efk'
-make: Leaving directory `/home/damon/myPrj/k8s_prj/efk'
- 
-make: *** No targets specified and no makefile found.  Stop.
-
