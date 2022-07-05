@@ -1,0 +1,15 @@
+expose:
+  type: ingress
+  tls:
+    enabled: true
+  ingress:
+    hosts:
+      core: damon.harbor.k8s.com
+      notary: notary.harbor.k8s.com
+externalURL: https://damon.harbor.k8s.com
+
+persistence:
+  enabled: true
+  persistentVolumeClaim:
+    registry:
+      size: 50Gi

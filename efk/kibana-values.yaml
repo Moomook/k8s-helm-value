@@ -1,0 +1,6 @@
+ingress:
+  enabled: true
+  hosts:
+    - host: damon.kibana.k8s.com
+      paths:
+        - path: /
