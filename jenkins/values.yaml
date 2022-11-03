@@ -1,0 +1,11 @@
+controller:
+  ingress:
+    enabled: true
+    hostName: jenkins.example.com
+  adminUser: "admin"
+  adminPassword: "admin"
+  prometheus:
+    enabled: true
+persistence:
+  enabled: true
+  size: "20Gi"
